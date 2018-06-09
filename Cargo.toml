@@ -1,0 +1,19 @@
+[package]
+name = "PlexLooper"
+version = "0.1.0"
+authors = ["Jens-Christian Fischer <jens-christian@invisible.ch>"]
+
+[dependencies]
+log = "*"
+log-panics = "*"
+simplelog = "0.4"
+num-traits = "*"
+time = "*"
+vst = { git = 'https://github.com/rust-dsp/rust-vst' }
+
+
+[lib]
+name = "plexlooper"
+crate-type = ["cdylib"]
+
+
